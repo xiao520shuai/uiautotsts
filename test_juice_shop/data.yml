@@ -1,0 +1,22 @@
+-
+  url:  http://121.4.36.2:3000/
+  method: GET
+  hearders:
+      Content-Type:
+      User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36
+      Referer:
+  payload:
+  result:
+-
+  url: http://121.4.36.2:3000#/login
+  method: POST
+  hearders:
+      Content-Type: application/json
+      User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36
+      Referer: http://121.4.36.2:3000/
+  payload:
+    email: 921434152@qq.com
+    password: '123456'
+  result:
+      status_code: 200
+      message: authentication

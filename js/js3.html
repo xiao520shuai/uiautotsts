@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var text=document.getElementById("text");
+    var total=30;
+    var count=document.getElementById("count");
+    var showcount=document.getElementById("showcount");
+    var totalbox=document.getElementById("totalbox");
+    document.onkeyup=function () {
+        var len=text.value.length;
+        var allow=total-len;
+        var overlow=len-total;
+        if(allow<0){
+            showcount.innerHTML='您已超出'+overlow;
+            totalbox.innerHTML='';
+        }
+        else{
+            showcount.innerHTML='你还可以输入';
+            totalbox.innerHTML='<em id="count">+allow+</em>/30';
+        }
+    }
+</script>
+</body>
+</html>

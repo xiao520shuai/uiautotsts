@@ -1,0 +1,40 @@
+#-
+#  url:  http://114.116.97.187:8001/
+#  method: GET
+#  hearders:
+#      Content-Type:
+#      User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36
+#      Referer:
+#  payload:
+#  result:
+#      status_code: 200
+#      message: OWASP Juice Shop
+#-
+#  url: http://114.116.97.187:8001/rest/user/login
+#  method: POST
+#  hearders:
+#      Content-Type: application/json
+#      User-Agent:  Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36
+#      Referer: http://114.116.97.187:8001/
+#  payload:
+#    email: 777@qq.com
+#    password: '123456'
+#  result:
+#      status_code: 200
+#      message: authentication
+-
+  url: http://121.4.36.2:3000/api/Feedbacks/
+  method: POST
+  hearders:
+      Content-Type: application/json
+      User-Agent:  Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.102 Safari/537.36 Edg/98.0.1108.55
+      Referer: http://121.4.36.2:3000/
+  payload:
+    UserId: 21
+    captchaId: 38
+    captcha: "7"
+    comment: 11 (921434152@qq.com)
+    rating: 0
+  result:
+      status_code: 201
+      message: success

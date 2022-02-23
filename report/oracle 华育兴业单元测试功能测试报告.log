@@ -1,0 +1,32 @@
+2022-01-19 16:01:48,379   13092     INFO test_runner.py(156) - 预计并发线程数：1
+2022-01-19 16:01:48,381    9248     INFO result.py(69) - 开始测试： test_do_Work_1__4__6__5__1_53_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,382    9248     INFO result.py(156) - 测试执行通过： test_do_Work_1__4__6__5__1_53_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,383    9248     INFO result.py(90) - 测试结束： test_do_Work_1__4__6__5__1_53_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,383    9248     INFO result.py(92) - 耗时： 0.0004947185516357422
+2022-01-19 16:01:48,383    9248     INFO result.py(69) - 开始测试： test_do_Work_2__2__5__15__0_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,384    9248     INFO result.py(156) - 测试执行通过： test_do_Work_2__2__5__15__0_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,384    9248     INFO result.py(90) - 测试结束： test_do_Work_2__2__5__15__0_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,384    9248     INFO result.py(92) - 耗时： 0.0004944801330566406
+2022-01-19 16:01:48,384    9248     INFO result.py(69) - 开始测试： test_do_Work_3__5__5__5__1_9_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,385    9248     INFO result.py(156) - 测试执行通过： test_do_Work_3__5__5__5__1_9_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,386    9248     INFO result.py(90) - 测试结束： test_do_Work_3__5__5__5__1_9_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,386    9248     INFO result.py(92) - 耗时： 0.0014874935150146484
+2022-01-19 16:01:48,386    9248     INFO result.py(69) - 开始测试： test_do_Work_4__4__5__15__1_48_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,387    9248     INFO result.py(156) - 测试执行通过： test_do_Work_4__4__5__15__1_48_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,387    9248     INFO result.py(90) - 测试结束： test_do_Work_4__4__5__15__1_48_ (test_do_Work.TestDo_Work)
+2022-01-19 16:01:48,387    9248     INFO result.py(92) - 耗时： 0.0004961490631103516
+2022-01-19 16:01:48,387   13092     INFO test_runner.py(193) - 
+Pass	test_do_Work_1__4__6__5__1_53_ (test_do_Work.TestDo_Work)
+Pass	test_do_Work_2__2__5__15__0_ (test_do_Work.TestDo_Work)
+Pass	test_do_Work_3__5__5__5__1_9_ (test_do_Work.TestDo_Work)
+Pass	test_do_Work_4__4__5__15__1_48_ (test_do_Work.TestDo_Work)
+
+2022-01-19 16:01:48,389   13092     INFO test_runner.py(213) - 
+测试结束！
+运行时间: 0:00:00.201806
+共计执行用例数量：4
+执行成功用例数量：4
+执行失败用例数量：0
+跳过执行用例数量：0
+产生异常用例数量：0
+
